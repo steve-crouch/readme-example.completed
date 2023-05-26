@@ -75,4 +75,4 @@ TODO: add example CONTRIBUTING.md and link to it
 
 ## License
 
-This software is licensed under the [MIT License](LICENSE.md).
+This software is licensed under the [MIT Licence](LICENSE.md).
