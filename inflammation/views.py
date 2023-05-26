@@ -12,13 +12,13 @@ def generate_plot(data_dict, outputfile):
     """
 
     num_plots = len(data_dict)
-    print(num_plots)
     fig = plt.figure(figsize=((3 * num_plots) + 1, 3.0))
 
     for i, (name, data) in enumerate(data_dict.items()):
         axes = fig.add_subplot(1, num_plots, i + 1)
 
         axes.set_ylabel(name)
+        axes.set_xlabel('Days')
         axes.plot(data)
 
     fig.tight_layout()
